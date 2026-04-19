@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000a15;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  margin-top: 80px;
+}
+
+iframe {
+  background: white;
+  border-radius: 10px;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #b30000 !important;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(220, 53, 69, 0.8);
+}
